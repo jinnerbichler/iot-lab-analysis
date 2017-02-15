@@ -4,4 +4,4 @@
 pip install -r requirements.txt
 
 # start notebook
-jupyter notebook
+jupyter notebook iot_lab_analysis.ipynb
