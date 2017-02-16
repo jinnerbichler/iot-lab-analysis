@@ -34,9 +34,9 @@ def load_cached_json(filename='cached.json'):
     return convert(json_obj)
 
 
-def convert(json):
+def convert(json_obj):
     df = pd.DataFrame()
-    for metric in json:
+    for metric in json_obj:
         name = metric['metric']
         datapoints = metric['dps']
         ts = pd.Series(index=[datetime.datetime.fromtimestamp(int(ts)) for ts in datapoints.keys()],

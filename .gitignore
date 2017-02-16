@@ -3,3 +3,4 @@
 __pycache__/
 cached.json
 *.csv
+.python-version
