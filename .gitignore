@@ -4,3 +4,4 @@ __pycache__/
 cached.json
 *.csv
 .python-version
+scatter_plot.png
